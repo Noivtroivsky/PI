@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <form id="contactForm"action="" method="post" class="modelo1">
+    
+        <h1 class="rotulos">Formulário de Contato <br>
+        </h1>
+        <p class="rotulos">Preencha todos os campos</p>
+        <hr style="width: 100%;">
+        <div class="deladin">
+            <div class="rotulos">Nome: </div>
+            <input id="nome" type="text" name="nome" placeholder="Nome Completo" class="entrada"/>
+        </div>
+        <div class="deladin">
+            <div class="rotulos">Email: </div>
+            <input id="email" type="email" name="email" placeholder="E-mail Válido" class="entrada"/>
+        </div>
+        <div class="deladin">
+            <div class="rotulos">Assunto: </div>
+            <select name="opcoes" class="entrada">
+                <option value="Java">Java</option>
+                <option value="JavaScript">JavaScript</option>
+            </select>
+        </div>
+        <div>
+            <div class="rotulos">Mensagem: </div>
+            <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem..." class="entrada"></textarea>
+        </div>
+        <div>
+            <div class="rotulos">&nbsp;</div>
+            <input type="submit" value="submit" class="botao" />
+        </div>
+    </form>
+
+</body>
+</html>
